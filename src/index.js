@@ -1,4 +1,4 @@
-import { sum } from 'treeshaking-lib';
+import { sum } from 'tree-shaking-lib';
 
 const heading = document.createElement('h1');
 heading.textContent = 'Hello!';

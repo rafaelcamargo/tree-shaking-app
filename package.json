@@ -9,9 +9,6 @@
   },
   "author": "Rafael Camargo <hello@rafaelcamargo.com>",
   "license": "MIT",
-  "dependencies": {
-    "treeshaking-lib": "file:../treeshaking-lib"
-  },
   "devDependencies": {
     "@babel/core": "^7.19.6",
     "@babel/preset-env": "^7.19.4",
@@ -21,5 +18,8 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "tree-shaking-lib": "file:../tree-shaking-lib"
   }
 }
